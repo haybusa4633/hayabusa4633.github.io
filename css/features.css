@@ -1,0 +1,27 @@
+.features-head {
+  text-align: center;
+}
+
+.features-contents {
+  border:  double 2px rgb(246, 229, 180);
+  margin: 0 auto;
+}
+
+.features-contents h1{
+  padding: px 0;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+@media (min-width: 900px) {
+  main {
+    display: flex;
+    width: 800px    
+    margin 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center
+   
+  }  
+
+}

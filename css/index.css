@@ -1,0 +1,42 @@
+
+main > section > div > img{
+  width: 100%;
+}
+
+.info > h1{
+  text-align: center;
+  padding: 20px 0;
+  font-weight: normal;
+  font-size: 20px;
+  
+}
+
+.pic{
+  margin-top: 30px;
+  border: solid 5px white;
+}
+
+@media (min-width: 900px) {
+  header > img{
+    width: 70%;
+  }
+  main > section {
+    display: flex;
+    width: 800px    
+    margin 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center
+   
+  }  
+  .info{
+    width: calc(50% - 32px);
+  }
+
+  .pic{
+    width: 50%;
+  }
+  main > section:nth-child(even){
+    flex-direction: row-reverse;
+  }
+}
